@@ -16,4 +16,4 @@ mongoose.connect('mongodb+srv://mongodbvit:mongodbvit@vitoriaapp-k2emg.mongodb.n
 })
 
 app.use(routes)
-app.listen(3001);
+app.listen(process.env.PORT || 3000);
